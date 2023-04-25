@@ -36,12 +36,13 @@ namespace primer_parcial_solid_transporte
 
             foreach (ITransporte transporte in transportes)
             {
+                
                 if (transporte is Avion)
                 {
                     transporte.Volar(10);
                 }
                 else
-                {
+           
                     transporte.Acelerar(10);
                 }
             }
